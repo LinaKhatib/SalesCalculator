@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 Console.WriteLine("Введите путь к Excel-файлу:");
 string xlsPath = Console.ReadLine().Replace("\"", "");
 
-Console.WriteLine("Введите путь к JSON-словарю:");
+Console.WriteLine("Введите путь к JSON-словарю (Positions.json):");
 string configPath = Console.ReadLine().Replace("\"", "");
 
 var jsonTable = File.ReadAllText("table.json");
